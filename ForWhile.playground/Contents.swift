@@ -47,7 +47,7 @@ for attempt in 1..<scratchCard {
         if count>3 {
             print("You won \(scratchCard-2)$")
             count=0
-            break
+            //break
         }
         
     }else{
@@ -83,16 +83,16 @@ print()
 
 var number1 = 1
 repeat {
-    print(number,terminator:" ")
-    number += 1
-} while number <= 10
+    print(number1,terminator:" ")
+    number1 += 1
+} while number1 <= 10
 
 
 var number2 = 3
 repeat {
     print("Hello World!!")
-    number+=1
-} while (number <= 2)
+    number2+=1
+} while (number2 <= 2)
 
     
 
